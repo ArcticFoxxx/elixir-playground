@@ -105,6 +105,6 @@ defmodule MathArthimitic do
   @doc false
   # Makes `print` function private. This function logs the operation details.
   defp print(operation, a, b, result) do
-    IO.puts("#{operation} : #{a} * #{b} = #{result}")
+    IO.puts("#{operation} : #{a}, #{b} = #{result}")
   end
 end
